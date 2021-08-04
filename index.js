@@ -12,3 +12,6 @@ console.log('sumB', sumB([75, 150, 360, 50, 100]))
 
 const getMottoA = require('./problemsTasks/houseA3')
 console.log('getMottoA', getMottoA('Stark'))
+
+const getMottoB = require('./problemsTasks/houseB3');
+console.log('getMottoB', getMottoB('Greyjoy'))
