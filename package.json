@@ -1,0 +1,25 @@
+{
+  "name": "nodetests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js",
+    "jest": "jest index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alejupas/nodePlusTests.git"
+  },
+  "author": "M.K.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alejupas/nodePlusTests/issues"
+  },
+  "homepage": "https://github.com/Alejupas/nodePlusTests#readme"
+}
