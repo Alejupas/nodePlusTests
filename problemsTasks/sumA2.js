@@ -5,7 +5,17 @@ b) Use a suitable ES6 method
  */
 
 // A
+function sumA(numbers){
+    var counter = 0;
 
-function sumA(numbersList){
-    
+    if(typeof numbers !== 'object'){
+        return 'It should not be object. Use array instead.'
+    }
+
+    numbers.forEach((num)=>{
+        counter += num;
+    })
+    return counter;
 }
+
+module.exports = sumA;

@@ -2,9 +2,8 @@
 module.exports = (x, y) => {
     if(typeof x !== 'number' || typeof y !== 'number') return console.log('Should be ONLY numbers.')
 
-    const rangeArr = Array(y - x + 1)
-    .map((i) => x + 1)
-    console.log(rangeArr);
+    const rangeArr = Array(y - x)
+    .map((i) => x)
 
     const numbersArr = [];
 
