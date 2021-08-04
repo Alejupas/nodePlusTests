@@ -5,7 +5,7 @@ b) Use a suitable ES6 method
  */
 
 // A
-function range(x, y){
+function rangeA(x, y){
     if(typeof x !== 'number' || typeof y !== 'number'){
         return 'It should be ONLY numbers.'
     }
@@ -18,4 +18,4 @@ function range(x, y){
     return rangeArray
 }
 
-module.exports = range;
+module.exports = rangeA;
