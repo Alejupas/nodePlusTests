@@ -1,5 +1,5 @@
 var houses = require('./houses')
-
+// B
 module.exports = (houseName) => {
     if(typeof houseName !== 'string') return 'One simply cannot use anything but string. Use wisely.'
 

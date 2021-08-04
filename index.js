@@ -15,3 +15,6 @@ console.log('getMottoA', getMottoA('Stark'))
 
 const getMottoB = require('./problemsTasks/houseB3');
 console.log('getMottoB', getMottoB('Greyjoy'))
+
+const noDuplicates = require('./problemsTasks/noDuplicates4')
+console.log('No Duplicates', noDuplicates([2,2,4,1,5,6,6,4,3,8,8,8]))
