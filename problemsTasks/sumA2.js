@@ -7,8 +7,7 @@ b) Use a suitable ES6 method
 // A
 function sumA(numbers){
     var counter = 0;
-
-    if(typeof numbers !== 'object'){
+    if(!Array.isArray(numbers)){
         return 'It should be array. Use array instead.'
     }
 

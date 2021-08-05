@@ -9,9 +9,7 @@ function rangeA(x, y){
     if(typeof x !== 'number' || typeof y !== 'number'){
         return 'It should be ONLY numbers.'
     }
-
     var rangeArray = [];
-
     for(var i = x; i < y; i++){
         rangeArray.push(i)
     }
