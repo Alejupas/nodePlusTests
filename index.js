@@ -28,3 +28,12 @@ console.log('6. Function in function sum', functionInFunction(5)(4))
 
 const sevenAte9 = require('./problemsTasks/7ate9')
 console.log('7. 7ate9', sevenAte9('797978887976543291'));
+
+const logger = require('./problemsTasks/logger8')
+const theCall = () => console.log('logging the log');
+const spy = logger(theCall);
+spy();
+spy.report()
+
+
+
