@@ -9,9 +9,10 @@ function sumA(numbers){
     var counter = 0;
     if(!Array.isArray(numbers)){
         return 'It should be array. Use array instead.'
+    } 
+    if (numbers.some(isNaN)) {
+        return 'insert only numbers'
     }
-
-    if(typeof numbers !== []) return 'only numbers can be added'
 
     numbers.forEach((num)=>{
         counter += num})
