@@ -9,12 +9,11 @@ function sumA(numbers){
     var counter = 0;
 
     if(typeof numbers !== 'object'){
-        return 'It should be object. Use array instead.'
+        return 'It should be array. Use array instead.'
     }
 
     numbers.forEach((num)=>{
-        counter += num;
-    })
+        counter += num})
     return counter;
 }
 
