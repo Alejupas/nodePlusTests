@@ -1,10 +1,11 @@
 const sumA = require("./sumA2");
 
-describe('sumA', () => {
-    test('properly adds two numbers', () => {
+describe('2. sumA test', () => {
+    test('properly adds numbers', () => {
         expect(sumA([1,2,6])).toBe(9);
-    })
-    test('should not execute anything but numbers in the array', () => {
-        expect(sumA([1,6,'s'])).toEqual()
+    });
+
+    test('should return error', () => {
+        expect(sumA([1,4,'s'])).toEqual('only numbers can be added')
     })
 })

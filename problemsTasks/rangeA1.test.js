@@ -1,6 +1,6 @@
 const rangeA = require('./rangeA1')
 
-describe('1. rangeA test', () => {
+describe('1. rangeA function test', () => {
     test('should give range, excluding last number', () => {
         expect(rangeA(4,8)).toEqual([4,5,6,7])
     });

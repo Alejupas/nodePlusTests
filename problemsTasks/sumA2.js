@@ -11,6 +11,8 @@ function sumA(numbers){
         return 'It should be array. Use array instead.'
     }
 
+    if(typeof numbers !== []) return 'only numbers can be added'
+
     numbers.forEach((num)=>{
         counter += num})
     return counter;
