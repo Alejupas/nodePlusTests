@@ -6,6 +6,5 @@ a function that would sum all numbers from provided array.
 module.exports = (numArray) => {
 
     const flattenedArray = numArray.flat(2);
-    const total =  flattenedArray.reduce(((acc, cur) => acc + cur), 0);
-    return total;
+    return flattenedArray.reduce(((acc, cur) => acc + cur), 0);
 }

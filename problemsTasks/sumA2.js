@@ -9,7 +9,7 @@ function sumA(numbers){
     var counter = 0;
 
     if(typeof numbers !== 'object'){
-        return 'It should not be object. Use array instead.'
+        return 'It should be object. Use array instead.'
     }
 
     numbers.forEach((num)=>{

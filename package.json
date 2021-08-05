@@ -10,7 +10,9 @@
   "devDependencies": {},
   "scripts": {
     "start": "nodemon index.js",
-    "jest": "jest index.js"
+    "test": "jest",
+    "test:watch": "jest --watchAll=true",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
