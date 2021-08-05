@@ -30,10 +30,10 @@ const sevenAte9 = require('./problemsTasks/7ate9')
 console.log('7. 7ate9', sevenAte9('797978887976543291'));
 
 const logger = require('./problemsTasks/logger8')
-const theCall = () => console.log('logging the log');
+const theCall = () => console.log('8. the spy log');
 const spy = logger(theCall);
 spy();
 spy.report()
 
-
-
+const nesting = require('./problemsTasks/nesting9')
+console.log('8. Nesting', nesting([10, 6, [4, 8], 3, [6, 5, [9]]]));
