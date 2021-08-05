@@ -38,7 +38,10 @@ spy.report()
 const nesting = require('./problemsTasks/nesting9')
 console.log('9. Nesting', nesting([10, 6, [4, 8], 3, [6, 5, [9]]]));
 
-const calculatorA = require('./problemsTasks/calculatorA10')
-var calcA = new calculatorA(0);
+const CalculatorA = require('./problemsTasks/calculatorA10')
+var calcA = new CalculatorA(0);
 console.log('10. Calculator A', calcA.add(5).multiply(2).add(20).divide(3).calculation());
 
+const CalculatorB = require('./problemsTasks/calculatorB10')
+const calcB = new CalculatorB(0);
+console.log('10. Calculator B', calcB.add(5).multiply(2).add(20).divide(3).totalSum());
