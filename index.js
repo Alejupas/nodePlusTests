@@ -21,3 +21,7 @@ console.log('4. No Duplicates', noDuplicates([2,2,4,1,5,6,6,4,3,8,8,8]))
 
 const wordSearch = require('./problemsTasks/wordSearch5')
 console.log('5. WordSearch', wordSearch('This wAS Garfield', 'Was'))
+
+
+const functionInFunction = require('./problemsTasks/theSum6')
+console.log('6. Function in function sum', functionInFunction(5)(4))
