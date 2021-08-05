@@ -46,5 +46,5 @@ const CalculatorB = require('./problemsTasks/calculatorB10')
 const calcB = new CalculatorB(0);
 console.log('10. Calculator B', calcB.add(5).multiply(2).add(20).divide(3).totalSum());
 
-const sayss = require('./problemsTasks/concat11')
-console.log('11. Say', sayss('Hello,')('it is me!'));
+const say = require('./problemsTasks/concat11')
+console.log('11. Say', say('Hello,')('it is me!'));
