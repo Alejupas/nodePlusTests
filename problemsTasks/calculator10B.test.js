@@ -2,7 +2,7 @@ const CalculatorB = require('./calculatorB10')
 
 
 
-describe('10. CalculatorA', ()=>{
+describe('10. CalculatorB', ()=>{
     test('should add numbers', ()=> {
         const calcB = new CalculatorB(0);
         expect(calcB.add(5).multiply(2).add(20).divide(3).totalSum()).toEqual(10)

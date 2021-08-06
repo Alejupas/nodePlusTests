@@ -4,7 +4,8 @@ say("Hello,")("it’s me"); //Would return "Hello, it’s me";
  */
 
 module.exports = (textString) => { 
-    if (typeof textString === 'string') {
-        return (textString2) => typeof textString2 === 'string' ?  `${textString} ${textString2}` : 'Its not a string.'
-    }
+    if (typeof textString !== 'string') return  'It is not a string.';
+        return (textString2) => typeof textString2 === 'string' ?  `${textString} ${textString2}` : 'It is not a string.'
+    
+    
 }
