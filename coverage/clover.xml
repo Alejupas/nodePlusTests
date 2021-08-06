@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1628186735371" clover="3.2.0">
-  <project timestamp="1628186735371" name="All files">
-    <metrics statements="28" coveredstatements="26" conditionals="16" coveredconditionals="14" methods="6" coveredmethods="6" elements="50" coveredelements="46" complexity="0" loc="28" ncloc="28" packages="1" files="4" classes="4"/>
+<coverage generated="1628241931736" clover="3.2.0">
+  <project timestamp="1628241931736" name="All files">
+    <metrics statements="66" coveredstatements="64" conditionals="42" coveredconditionals="39" methods="18" coveredmethods="18" elements="126" coveredelements="121" complexity="0" loc="66" ncloc="66" packages="1" files="12" classes="12"/>
+    <file name="7ate9.js" path="C:\Users\mindaugas.kapickas\Desktop\Projects\nodeTests\problemsTasks\7ate9.js">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+    </file>
+    <file name="houseA3.js" path="C:\Users\mindaugas.kapickas\Desktop\Projects\nodeTests\problemsTasks\houseA3.js">
+      <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="7" methods="1" coveredmethods="1"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="17" count="2" type="stmt"/>
+      <line num="18" count="20" type="cond" truecount="2" falsecount="0"/>
+      <line num="19" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="22" count="2" type="cond" truecount="2" falsecount="0"/>
+    </file>
+    <file name="houseB3.js" path="C:\Users\mindaugas.kapickas\Desktop\Projects\nodeTests\problemsTasks\houseB3.js">
+      <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="13" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="2" type="cond" truecount="2" falsecount="0"/>
+    </file>
+    <file name="houses.js" path="C:\Users\mindaugas.kapickas\Desktop\Projects\nodeTests\problemsTasks\houses.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="14" count="2" type="stmt"/>
+    </file>
+    <file name="logger8.js" path="C:\Users\mindaugas.kapickas\Desktop\Projects\nodeTests\problemsTasks\logger8.js">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+    </file>
+    <file name="noDuplicates4.js" path="C:\Users\mindaugas.kapickas\Desktop\Projects\nodeTests\problemsTasks\noDuplicates4.js">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+    </file>
     <file name="rangeA1.js" path="C:\Users\mindaugas.kapickas\Desktop\Projects\nodeTests\problemsTasks\rangeA1.js">
       <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
       <line num="9" count="2" type="cond" truecount="4" falsecount="0"/>
@@ -41,6 +90,19 @@
       <line num="6" count="3" type="cond" truecount="2" falsecount="0"/>
       <line num="7" count="1" type="stmt"/>
       <line num="9" count="6" type="stmt"/>
+    </file>
+    <file name="theSum6.js" path="C:\Users\mindaugas.kapickas\Desktop\Projects\nodeTests\problemsTasks\theSum6.js">
+      <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="3" type="cond" truecount="2" falsecount="0"/>
+    </file>
+    <file name="wordSearch5.js" path="C:\Users\mindaugas.kapickas\Desktop\Projects\nodeTests\problemsTasks\wordSearch5.js">
+      <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="3" type="cond" truecount="4" falsecount="0"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
     </file>
   </project>
 </coverage>
