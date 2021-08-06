@@ -4,7 +4,7 @@ the given text variable. Please note it has to be a full word and case insensiti
  */
 
 module.exports = (text, word) => {
-    if(typeof text !== 'string' || typeof word !== 'string') return console.log('It has to be a string.')
+    if(typeof text !== 'string' || typeof word !== 'string') return 'It has to be a string.';
 
     const regex = new RegExp(`\\b${word}\\b`, "gi")
     return regex.test(text)
