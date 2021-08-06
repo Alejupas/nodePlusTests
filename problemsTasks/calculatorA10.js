@@ -33,6 +33,6 @@ module.exports = function(x) {
     }
 
     this.calculation = function(){
-        return isNaN(total) ? console.log('It is not a number.') : total;
+        return isNaN(total) ? 'It is not a number.' : total;
     }
 }
