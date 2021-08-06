@@ -5,8 +5,8 @@ sevenAte9('79797') // returns '777
  */
 
 module.exports = sevenAte9 = (numbers) => {
-    if(typeof numbers !== 'string') return console.log('It has to be a string. Yes, numbers in a string, correct.');
-
+    if(typeof numbers !== 'string') return 'It has to be a string of numbers';
+    
    numbers = numbers.replace(/79(?=7)/g, '7')
    return numbers;
 }
