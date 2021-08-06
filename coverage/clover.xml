@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1628241931736" clover="3.2.0">
-  <project timestamp="1628241931736" name="All files">
+<coverage generated="1628242079709" clover="3.2.0">
+  <project timestamp="1628242079710" name="All files">
     <metrics statements="66" coveredstatements="64" conditionals="42" coveredconditionals="39" methods="18" coveredmethods="18" elements="126" coveredelements="121" complexity="0" loc="66" ncloc="66" packages="1" files="12" classes="12"/>
     <file name="7ate9.js" path="C:\Users\mindaugas.kapickas\Desktop\Projects\nodeTests\problemsTasks\7ate9.js">
       <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
@@ -14,11 +14,11 @@
       <line num="10" count="1" type="stmt"/>
       <line num="12" count="1" type="stmt"/>
       <line num="13" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="14" count="2" type="stmt"/>
       <line num="15" count="2" type="stmt"/>
-      <line num="17" count="2" type="stmt"/>
-      <line num="18" count="20" type="cond" truecount="2" falsecount="0"/>
-      <line num="19" count="1" type="cond" truecount="1" falsecount="1"/>
-      <line num="22" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="20" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="20" count="2" type="cond" truecount="2" falsecount="0"/>
     </file>
     <file name="houseB3.js" path="C:\Users\mindaugas.kapickas\Desktop\Projects\nodeTests\problemsTasks\houseB3.js">
       <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
