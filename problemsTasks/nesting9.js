@@ -4,7 +4,9 @@ a function that would sum all numbers from provided array.
  */
 
 module.exports = (numArray) => {
-
+    if(!Array.isArray(numArray)) return 'Error its not array'
     const flattenedArray = numArray.flat(2);
-    return flattenedArray.reduce(((acc, cur) => acc + cur), 0);
+    const total = flattenedArray.reduce(((acc, cur) => acc + cur), 0);
+    return typeof total !== 'number' ? 'Enter only number values' : total;
+    
 }
