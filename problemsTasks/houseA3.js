@@ -10,11 +10,13 @@
 var houses = require('./houses')
 
 module.exports = function(houseName){
-    if(typeof houseName !== 'string') return console.log('It should only be a string.')
+    if(typeof houseName !== 'string') return 'It should only be a string.'
 
+    var motto = '';
+    
     for(let i = 0; i < houses.length; i++){
         if(houses[i].name === houseName) {
-            motto = houses[i].motto;
+          motto = houses[i].name === houseName ? houses[i].motto : '';
         }
     }
     return motto || 'There is no such house'
