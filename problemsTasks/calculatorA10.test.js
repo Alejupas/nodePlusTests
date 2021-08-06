@@ -3,7 +3,7 @@ const CalculatorA = require('./calculatorA10')
 var calcA = new CalculatorA(0);
 
 describe('10. CalculatorA', ()=>{
-    test('should add nested numbers in array', ()=> {
+    test('should add sumbers', ()=> {
         expect(calcA.add(5).multiply(2).add(20).divide(3).calculation()).toEqual(10)
     })
 

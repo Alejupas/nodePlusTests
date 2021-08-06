@@ -24,8 +24,7 @@ class Calculator {
         }
 
         totalSum() {
-            if(this.total === isNaN) return console.log('Only numbers accepted. No other symbols.');
-            return this.total;
+            return isNaN(this.total) ? 'Only numbers accepted. No other symbols.' : this.total;
         }
 }
 
